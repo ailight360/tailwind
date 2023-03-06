@@ -16,10 +16,11 @@
       @tailwind utilities;  
   #2.2: root/ouput
     #2.2: Open root/package.json file
-      #2.2.1:   "scripts":{
+    #2.2.1: "scripts":{
                 "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
                 },
-      #2.2.2: open root/index.html file and link ./output/tailwind.css css as stylesheet
+    #2.2.2 Open tailwind.config.js udapte content: ['*.html', ],
+    #2.2.2: open root/index.html file and link ./output/tailwind.css css as stylesheet
   
 *3: Create VS code settings for tailwind
   #3.1: root/.vscode folder
@@ -27,4 +28,3 @@
   #3.3: add blow codes to settings.json file
     {"css.validate": false,
     "tailwindCSS.emmetCompletions": true,}
-
